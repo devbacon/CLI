@@ -46,6 +46,16 @@ char **parse_commandline(char *str, char **args, int *args_count)
 
 int main()
 {
+  // Holds the command line the user types in
+  char commandline[COMMANDLINE_BUFSIZE];
+
+  // Holds the parsed version of the command line
+  char *args[MAX_TOKENS];
+
+  // How many command line args the user typed
+  int args_count;
+
+
 
   return 0;
 }
